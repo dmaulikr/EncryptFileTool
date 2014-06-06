@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="win32">
+      <UniqueIdentifier>{84a8ebd7-7cf0-47f6-b75e-d441df67da40}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes">
+      <UniqueIdentifier>{bb6c862e-70e9-49d9-81b7-3829a6f50471}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\Tool">
+      <UniqueIdentifier>{de3d9b39-9d70-4a31-a938-f9a65273db0d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\Tool\rc4Encrypt">
+      <UniqueIdentifier>{bab6d1cf-c539-43df-b9e7-82ce15bc919f}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>win32</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\AppDelegate.cpp">
+      <Filter>Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Tool\rc4Encrypt\RC4EncryptTool.cpp">
+      <Filter>Classes\Tool\rc4Encrypt</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Tool\CBFolderTool.cpp">
+      <Filter>Classes\Tool</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Tool\CBFileTool.cpp">
+      <Filter>Classes\Tool</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\EncryptLayer.cpp">
+      <Filter>Classes</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="main.h">
+      <Filter>win32</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\AppDelegate.h">
+      <Filter>Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Tool\rc4Encrypt\RC4EncryptTool.h">
+      <Filter>Classes\Tool\rc4Encrypt</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Tool\CBFileTool.h">
+      <Filter>Classes\Tool</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Tool\CBFolderTool.h">
+      <Filter>Classes\Tool</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\EncryptLayer.h">
+      <Filter>Classes</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
